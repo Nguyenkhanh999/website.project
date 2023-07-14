@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title> Sử dụng Js tập tin csv </title>
+</head>
+
+<body>
+    <div>
+        <input id="file" type="file" name="file" accept=".csv"></input><br><br>
+        <input id="btnsubmit" type="button" name="file" value="read" onclick="readCSVFile();"></input> <br> <br>
+    </div>
+    <!--  List CSV file data -->
+    <table id="tblcsvdata" boder="1" style=" border-collapse: collapse">
+        <thead>
+            <th>S.no</th>
+            <th>Username</th>
+            <th>Name</th>
+            <th>Email</th>
+        </thead>
+    </table>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
